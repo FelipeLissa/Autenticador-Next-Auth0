@@ -5,8 +5,8 @@ export default withApiAuthRequired(async function shows(req, res) {
     const { accessToken } = await getAccessToken(req, res, {
       scopes: ['read:shows']
     });
-    const apiPort = process.env.API_PORT || 3001;
-    const response = await fetch(`http://localhost:${apiPort}/api/shows`, {
+    const apiPort = process.env.AUTH0_BASE_URL;
+    const response = await fetch(apiPort, {
       headers: {
         Authorization: `Bearer ${accessToken}`
       }
