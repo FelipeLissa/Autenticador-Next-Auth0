@@ -15,6 +15,8 @@ const Hero = () => (
       <br/>
       <a href="https://autenticador-next-auth0.vercel.app/api/auth/login">Acessar Página de Autenticação</a>
     </p>
+    <p> (Observação: toda tentativa de login com um Browser já verificado será redirecionado para o página inicial (Página <a href='/'>Home</a>).
+          Com o login verificado e efetuado, você pode acessar páginas restritas por AuthRequired como <a href='/csr'>CSR</a> <a href='/ssr'>SSR</a>)</p>
   </div>
 );
 

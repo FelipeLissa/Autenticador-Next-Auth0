@@ -12,6 +12,14 @@ export default function SSRPage({ user }) {
           <p>
           Você pode proteger páginas ssr com o Auth0, em que apenas usuários logados e verificados terão acesso.
           </p>
+          <br/>
+          <p>
+            Páginas protegidas só podem ser acessadas após efetuar <a href='/api/auth/login'>Login</a>. Para efeito de teste, você pode efetuar Logout no botão abaixo
+            e tentar acessar essa página novamente.
+          </p>
+          <p>
+            <a href='/api/auth/logout'>Efetuar LogOut</a>
+          </p>
         </div>
       </div>
       <div className="result-block-container" data-testid="ssr-json">
