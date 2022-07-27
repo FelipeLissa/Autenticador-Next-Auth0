@@ -13,10 +13,12 @@ const Hero = () => (
       Essa é uma API simples demonstrando o processo de autenticação através do Auth0, podendo permitir o processo de verificação com socials connections como Google, Facebook, GitHub, Apple e muitos outros. 
       <br/>
       <br/>
+      <br/>
+      <br/>
       <a href="https://autenticador-next-auth0.vercel.app/api/auth/login">Acessar Página de Autenticação</a>
     </p>
-    <p> (Observação: toda tentativa de login com um Browser já verificado será redirecionado para o página inicial (Página <a href='/'>Home</a>).
-          Com o login verificado e efetuado, você pode acessar páginas restritas por AuthRequired como <a href='/csr'>CSR</a> <a href='/ssr'>SSR</a>)</p>
+    <p> (Observação: toda tentativa de login com um Browser já verificado será redirecionado para o página inicial (<a href='/'>Página Home</a>).
+          Com o login efetuado e verificado, você pode acessar páginas restritas por AuthRequired como <a href='/csr'>CSR</a> <a href='/ssr'>SSR</a>)</p>
   </div>
 );
 
