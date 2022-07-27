@@ -1,5 +1,5 @@
 import React from 'react';
-import {SiAuth0, SiNextdotjs} from 'react-icons/Si'
+import {SiAuth0, SiNextdotjs} from 'react-icons/si'
 
 const Hero = () => (
   <div className="hero my-5 text-center" data-testid="hero">
