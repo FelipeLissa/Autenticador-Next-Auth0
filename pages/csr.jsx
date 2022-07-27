@@ -11,7 +11,7 @@ export default withPageAuthRequired(function SSRPage() {
             Você pode proteger páginas csr com o Auth0, em que apenas usuários logados e verificados terão acesso.
           </p>
           <p>
-            <a href='/api/auth/logout'></a>
+            <a href='/api/auth/logout'>LogOut</a>
           </p>
         </div>
       </div>
