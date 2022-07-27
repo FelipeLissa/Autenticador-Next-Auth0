@@ -1,17 +1,19 @@
 import React from 'react';
-
-import Logo from './Logo';
+import {SiAuth0, SiNextdotjs} from 'react-icons/Si'
 
 const Hero = () => (
   <div className="hero my-5 text-center" data-testid="hero">
-    <Logo testId="hero-logo" />
+    <div><img src='android-chrome-192x192.png'/></div>
+    <br/>
     <h1 className="mb-4" data-testid="hero-title">
-      Next.js Sample Project
+      Autenticação com Next-Auth <SiNextdotjs/> e Auth0 <SiAuth0/>
     </h1>
 
     <p className="lead" data-testid="hero-lead">
-      This is a sample application that demonstrates an authentication flow for a Regular Web App, using{' '}
-      <a href="https://nextjs.org">Next.js</a>
+      Essa é uma API simples demonstrando o processo de autenticação através do Auth0, podendo permitir o processo de verificação com socials connections como Google, Facebook, GitHub, Apple e muitos outros. 
+      <br/>
+      <br/>
+      <a href="https://autenticador-next-auth0.vercel.app/api/auth/login">Acessar Página de Autenticação</a>
     </p>
   </div>
 );

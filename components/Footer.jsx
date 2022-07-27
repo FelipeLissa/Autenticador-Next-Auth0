@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="bg-light p-3 text-center" data-testid="footer">
-    <div className="logo" data-testid="footer-logo" />
+  <footer className="bg-light p-6 text-center" data-testid="footer">
+    <div><img src='android-chrome-64x64.png'></img></div>
     <p data-testid="footer-text">
-      Sample project provided by <a href="https://auth0.com">Auth0</a>
+      Projeto Produzido por <a href="https://portfolio-felipelissa.vercel.app/">FelipeLissa</a>
     </p>
   </footer>
 );
