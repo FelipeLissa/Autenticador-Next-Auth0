@@ -10,7 +10,7 @@ const Hero = () => (
     </h1>
 
     <p className="lead" data-testid="hero-lead">
-      Essa é uma API simples demonstrando o processo de autenticação através do Auth0, podendo permitir o processo de verificação com socials connections como Google, Facebook, GitHub, Apple e muitos outros. 
+    Este projeto é uma pequena demonstração de uma api feita com Next que possui um processo de autenticação através do Auth0 (Existem outros autenticadores conhecidos como Next-Auth) que permite proteger acesso à páginas com necessidade de  verificação do usuário com socials connections como Google, Facebook, GitHub, Linkedin Apple e muitos outros. 
       <br/>
       <br/>
       <br/>
